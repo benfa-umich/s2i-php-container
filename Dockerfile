@@ -70,7 +70,7 @@ RUN yum install -y autoconf httpd-devel openssl-devel wget && \
     make && \
     make install && \
     mkdir -p /var/cosign/filter && \
-    chmod 777 /var/cosign/filter
+    chmod 666 /var/cosign/filter
 
 USER 1001
 
