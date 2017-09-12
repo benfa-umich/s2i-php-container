@@ -75,4 +75,4 @@ RUN yum install -y autoconf httpd-devel openssl-devel wget && \
 USER 1001
 
 # Set the default CMD to print the usage of the language image
-CMD $STI_SCRIPTS_PATH/usage
+#CMD $STI_SCRIPTS_PATH/usage
