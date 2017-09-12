@@ -61,7 +61,7 @@ COPY ./root/ /
  #   chmod -R a+rwx /opt/rh/httpd24/root/var/run/httpd
 
 # Your install may already have these
-RUN yum install -y autoconf httpd-devel openssl-devel wget && \
+RUN yum install -y autoconf httpd httpd-devel openssl-devel wget && \
     wget https://github.com/umich-iam/cosign/archive/master.tar.gz && \
     tar xfz master.tar.gz && \
     cd cosign-master && \
