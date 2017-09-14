@@ -76,5 +76,6 @@ USER 1001
 
 # Set the default CMD to print the usage of the language image
 #CMD $STI_SCRIPTS_PATH/usage
-#CMD /usr/local/apache2/bin/httpd -DFOREGROUND
-CMD /opt/rh/httpd24/root/usr/sbin/httpd
+CMD $STI_SCRIPTS_PATH/run
+CMD /usr/local/apache2/bin/httpd -DFOREGROUND
+#CMD /opt/rh/httpd24/root/usr/sbin/httpd
